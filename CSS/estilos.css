@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+    background-color: rgb(253, 243, 229);
+    margin: 0px auto 0px auto;
+}
+.miTexto{
+    font-size: 80px;
+    color:green;
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+.titulo{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 50vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#info{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#info h2{
+    margin-bottom: 10px;
+}
+main section h3{
+    margin: 20px auto 20px auto;
+    border: 2px solid aqua;
+    border-radius:3px;
+    width: 20vw;
+    display:flex;
+    justify-content:center;
+    font-size: 2em;
+}
+.card-container{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 80vw;
+    margin: 15px auto 15px auto;
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-container .card{
+    border: 3px solid red;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.card-picture{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+footer{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.redes-sociales{
+    /* background-color: rgb(0, 102, 102, 5%); */
+    width: 35vw;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.redes-sociales .tarjeta{
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redes-sociales .tarjeta p{
+    order: 1;
+    padding: 15px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    /* padding-left: 10px; */
+}
+#Instagram{
+    background-color: rgb(204, 130, 238);
+    order:1;
+}
+#Youtube{
+    background-color: red;
+}
+#Facebook{
+    background-color: blue;
+}
+.tarjeta:hover{
+    background-color: rgb(255, 238, 176);
+    transition: 1s;
+}
